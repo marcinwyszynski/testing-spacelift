@@ -3,11 +3,11 @@ terraform {
   
   before_hook "ls" {
     commands     = ["plan"]
-    execute      = ["ls -la"]
+    execute      = ["ls", "-la"]
   }
   
   after_hook "ls" {
     commands     = ["plan"]
-    execute      = ["ls -la"]
+    execute      = ["ls", "-la"]
   }
 }
