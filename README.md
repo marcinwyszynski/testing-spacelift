@@ -1,4 +1,4 @@
 # testing-spacelift
 Bacon
 
-Boom bang
+Boom
